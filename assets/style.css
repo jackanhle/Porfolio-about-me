@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    float: left;
+  }
+body{
+    font-family: monospace;
+    font-size: 20px;
+  
+}
+.header{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    color: purple;
+    
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    
+}
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    float: right;
+}
+
+.header nav ul li {
+  display: inline-block;
+   margin-left: 20px;
+  
+   
+}
+.header nav ul {
+    list-style-type: none;
+}
+.profile{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-image: url("images/web-design-Gold-Coast.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.links a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+h2:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    
+}
+h2{
+    color: purple 
+}
+
+aside: hover {
+    display: flex;
+    flex: 1 1 200px;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: columun;
+    align
+
+  }
