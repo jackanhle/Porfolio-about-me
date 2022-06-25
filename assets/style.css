@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ section {
     justify-content: space-between;
 }
 
-/* Hero */
+
 .hero {
     background: url(../assets/images/web-design-Gold-Coast.jpg);
     width: 100%;
@@ -87,7 +87,7 @@ section {
     color: var(--tertiary-color);  
 }
 
-/* About Me */
+
 .title {
     flex: 1 20%;
     display: flex;
@@ -107,7 +107,7 @@ section {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
+    
     margin-left: 2%
 }
 
@@ -115,7 +115,7 @@ section {
     margin-bottom: 15px;
 }
 
-/* Work */
+
 .work .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -153,7 +153,9 @@ section {
 .work a:hover::after {
     opacity: 0;
 }
-
+a.project2 {
+    background-image: url(../assets/images/174772071-abec67f5-a21b-4466-87c3-55d067e4855f.png) ;
+}
 a.project1 {
     background-image: url(../assets/images/162617932-85175701-ba9e-42e0-a491-ab34fca9eaee.png);
 }
@@ -199,7 +201,7 @@ a.work-schedule {
     font-size: 9pt;
 }
 
-/* Footer/Contact Me */
+
 .contact ul {
     display: flex;
     flex-wrap: wrap;
@@ -220,8 +222,7 @@ a.work-schedule {
 }
 
 
-/*** MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER ***/
-/* this will be applied on any screen smaller than 980px */
+
 @media screen and (max-width: 980px) {
     header {
         padding: 20px;
@@ -234,8 +235,7 @@ a.work-schedule {
     }
 }
 
-/*** MEDIA QUERY FOR TABLETS AND SMALLER ***/
-/* this will be applied on any screen between 768px and 575px */
+
 @media screen and (max-width: 768px) {
     header {
         justify-content: center;
@@ -259,8 +259,7 @@ a.work-schedule {
     }
 }
 
-/*** MEDIA QUERY FOR MOBILE PHONES AND SMALLER ***/
-/* this will be applied on any screen smaller than 575px */
+
 @media screen and (max-width: 575px) {
     header h1{
         font-size: 1rem;
